@@ -87,8 +87,8 @@ window.addEventListener('load', function(){
      
       ridershipData19 = ridershipData19.reverse();
      sum2019 = Math.floor(sum2019);
-    document.getElementById('rider2019_number').innerHTML='Total ridership 2019: '+sum2019;
-    document.getElementById('rider2020_number').innerHTML='Total ridership 2020: '+sum2020;
+    document.getElementById('rider2019_number').innerHTML=sum2019;
+    document.getElementById('rider2020_number').innerHTML=sum2020;
       
     });
         
@@ -110,7 +110,7 @@ var s = function( p ) { // p could be any variable name
         
        let gap = 30;
        p.colorMode(p.RGB);
-       p.background(0);
+       p.background(255);
        
        
        //iterate over data from 2019

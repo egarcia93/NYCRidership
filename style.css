@@ -23,7 +23,7 @@ body{
 }
 
 .project_headingRight {
-  color: #12FBD1
+  color: #12FBD1;
 }
 
 
@@ -41,6 +41,28 @@ body{
   border-radius: 20px;
   text-align: center;
   align-items: center;
+  }
+
+/* RIDERSHIP NUMBER */
+
+  .rider_number {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction:row;
+    width:100%;
+    text-align:center;
+  }
+
+  .rider_number20 {
+    color: #12FBD1;
+    text-align: center;
+  }
+
+  .rider_number19 {
+   color:  #1245FB;
+   text-align: center;
+
   }
 
 /* 2. BUTTON */
@@ -70,18 +92,15 @@ body{
     margin-bottom: 10px;
   }
   
-  /* p5 canvas */
+  /* p5 canvases */
 
   .project_wrapper{
     display: flex;
     text-align: center;
     position: relative;
-    
+    min-height: 200px;
     overflow: hidden;
     
-  }
-  .rider_number{
-    margin-left: 80px;;
   }
 
   .canvas_1{
@@ -102,13 +121,14 @@ body{
     overflow: hidden;
   }
   /* FOOTER */ 
-  .gotoEND{
-    
 
+  .gotoEND{
     width:100%;
     min-width: 320px;
     font-size: x-large;
     font-family: 'Teko', sans-serif;
+    color: #1245FB;
+
   }
 
   .team_name {
@@ -116,7 +136,7 @@ body{
     min-width: 320px;
     font-size: x-large;
     font-family: 'Teko', sans-serif;
-    color: white;
+    color:  #12FBD1;
   }
 
 
@@ -127,4 +147,5 @@ body{
   flex-direction:row;
   width:100%;
   text-align:center;
+  transform: translateY(90px);
   }
